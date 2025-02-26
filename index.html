@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publication Droit & Économie</title>
+    <style>
+        /* Style global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        nav {
+            background-color: #34495e;
+            padding: 0.5rem 2rem;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .card {
+            background: #f4f4f4;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+        .card p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 0.5rem;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .card a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav a {
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Publication Droit & Économie</h1>
+        <p>Articles, cas pratiques et livres pour les passionnés de droit et d'économie</p>
+    </header>
+    <nav>
+        <a href="#articles">Articles</a>
+        <a href="#cas-pratiques">Cas Pratiques</a>
+        <a href="#livres">Livres</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <!-- Section Articles -->
+        <div id="articles" class="section">
+            <h2>Articles Récents</h2>
+            <div class="card">
+                <h3>Les bases du droit commercial</h3>
+                <p>Découvrez les principes fondamentaux du droit commercial et leur application dans le monde des affaires.</p>
+                <a href="#">Lire l'article</a>
+            </div>
+            <div class="card">
+                <h3>L'économie circulaire : un modèle durable</h3>
+                <p>Analyse des avantages et des défis de l'économie circulaire dans le contexte actuel.</p>
+                <a href="#">Lire l'article</a>
+            </div>
+        </div>
+        <!-- Section Cas Pratiques -->
+        <div id="cas-pratiques" class="section">
+            <h2>Cas Pratiques</h2>
+            <div class="card">
+                <h3>Cas pratique : Contrat de travail</h3>
+                <p>Étudiez un cas pratique sur la rédaction et la négociation d'un contrat de travail.</p>
+                <a href="#">Télécharger</a>
+            </div>
+            <div class="card">
+                <h3>Cas pratique : Analyse financière</h3>
+                <p>Apprenez à analyser les états financiers d'une entreprise avec ce cas pratique.</p>
+                <a href="#">Télécharger</a>
+            </div>
+        </div>
+        <!-- Section Livres -->
+        <div id="livres" class="section">
+            <h2>Livres Recommandés</h2>
+            <div class="card">
+                <h3>Introduction au droit</h3>
+                <p>Un guide complet pour les débutants en droit.</p>
+                <a href="#">Voir le livre</a>
+            </div>
+            <div class="card">
+                <h3>Économie pour tous</h3>
+                <p>Une introduction simple et claire aux concepts économiques.</p>
+                <a href="#">Voir le livre</a>
+            </div>
+        </div>
+        <!-- Section Contact -->
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Nom :</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2023 Publication Droit & Économie. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
